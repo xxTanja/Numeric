@@ -4,20 +4,30 @@ email3 = '@web.de'
 email4 = 't.grieshaber@'
 email5 = 't.grieshaber@de'
 
+#easily if you want to add a  TO-DO
+# --> pretty easy to use as a reminder
+# check lower bar: RUN, TO-DO, python packages etc
 
-def check_email():
+#should not start/finish with an @
+# should not include more than 1 @
+# WHAT ELSE?
+#use conditions & loops
+
+def check_email(email):
     #TODO implement different checks
-if email:
-    #check 1
-    return True
-else:
+    if email:
+    print('em')
+        return True
+    else:
     #check 1
     # check 2
-    return False
+        return False
 
 
-for i in [email1, emil2, email3, email4, email5]:
+for em in [email1, email2, email3, email4, email5]:
     print('{}: {}'.format(em, check_email(em)))
 
-for i range(len(email4)):
-    print(email4[i])
+#for i range = this will output individual characters
+
+for i in range(len(email4)):
+   print(email4[i])
