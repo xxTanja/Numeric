@@ -46,19 +46,24 @@ while (Number <= 100):
         print(" %d" % Number, end='  ')
     Number = Number + 1
 
+
 print('--------------------------')
 
-
+N = 100
+List_Prime = []
 
 minimum = int(1)
-maximum = int(150)
+maximum = int(100)
 
 for Number in range (minimum, maximum + 1):
     count = 0
+    if i >= 1 and i < 2:
+        List_Prime.append(i)
     for i in range(2, (Number//2 + 1)):
         if(Number % i == 0):
             count = count + 1
             break
-
     if (count == 0 and Number != 1):
         print(" %d" %Number, end = '  ')
+
+print ('-----------------------------------------')

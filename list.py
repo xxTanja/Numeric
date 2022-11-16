@@ -8,7 +8,7 @@ print(l1[-4:])
 #print - 4 means last 4 elements
 
 l1.append(765)
-#add element to liss
+#add element to list
 
 l1.insert(3, 878)
 #add element to a speicifc position
