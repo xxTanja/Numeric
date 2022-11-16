@@ -6,6 +6,9 @@
 
 #3points
 
+#Tanja Grieshaber
+#ID: 120685
+
 Number = 1
 
 while (Number <= 100):
