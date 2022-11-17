@@ -20,3 +20,5 @@ for i in range(len(l1)):
     print(f'el {i}={l1[i]}')
 
 
+
+
